@@ -4,11 +4,10 @@ img {
     width: 100%;
    
   }
-  #Picture{
+
     
-    float: left;
-  }
 figure{
+  float: left;
     height: 400px;
     width: 325px;
 }
