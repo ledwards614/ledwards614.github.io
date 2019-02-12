@@ -13,8 +13,9 @@ figure{
 }
  #header{
   border: 3px solid darkcyan;
-  float: right;
-
+  float: center;
+  font-size: 48;
  } 
+ 
 
 
