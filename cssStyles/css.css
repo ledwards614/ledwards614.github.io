@@ -1,0 +1,13 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  div.clearfix {
+    overflow: auto;
+  }
+  div{
+    border: 3px solid darkcyan;
+  }
+  
