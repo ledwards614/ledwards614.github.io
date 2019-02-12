@@ -4,14 +4,18 @@ img {
     width: 100%;
    
   }
-  #header{
-    border: 3px solid darkcyan;
+  #Picture{
+    
     float: left;
   }
 figure{
     height: 400px;
     width: 325px;
 }
-  
+ #header{
+  border: 3px solid darkcyan;
+  float: right;
+
+ } 
 
 
