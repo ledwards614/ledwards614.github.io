@@ -1,6 +1,6 @@
 img {
     display: block;
-    align-content: center;
+    box-align: center;
     
     width: 100%;
   }
@@ -11,7 +11,7 @@ img {
     border: 3px solid darkcyan;
   }
 figure{
-    height: 100px;
-    width: 70px;
+    height: 400px;
+    width: 325px;
 }
   
