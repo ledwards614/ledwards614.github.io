@@ -4,7 +4,9 @@ img {
     width: 100%;
    
   }
-
+#navMenu{
+  float: right;
+}
     
 figure{
   float: left;
@@ -16,6 +18,9 @@ figure{
   float: center;
   font-size: 48;
  } 
- 
+ #name{
+   font-size: 48;
+ }
+
 
 
