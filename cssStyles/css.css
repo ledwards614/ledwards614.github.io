@@ -41,10 +41,12 @@ figure{
 #ProfessionLinks{
   padding-top: 1rem;
   float: left;
+  width: 100%;
 }
 #Contact{
   padding-top: 1rem;
   float: left;
+  width: 100%;
 }
 
 
