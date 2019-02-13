@@ -44,6 +44,7 @@ figure{
     background-color: slategrey;
     padding-bottom: 1rem;
     text-align: center;
+    display: flex;
 }
  #techSkills ul{
   -webkit-columns: 2;
