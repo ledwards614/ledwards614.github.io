@@ -43,8 +43,9 @@ figure{
     width: 90%;
     background-color: slategrey;
     padding-bottom: 1rem;
+    text-align: center;
 }
-ul #techSkills{
+ #techSkills ul{
   -webkit-columns: 2;
      -moz-columns: 2;
           columns: 2;
@@ -55,6 +56,7 @@ ul #techSkills{
   width: 90%;
   background-color: slateblue;
   padding-bottom: 1rem;
+  text-align: center;
 }
 #Contact{
   padding-top: 1rem;
@@ -62,6 +64,7 @@ ul #techSkills{
   width: 90%;
   background-color: slategrey;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 
