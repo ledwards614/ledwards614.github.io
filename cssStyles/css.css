@@ -30,10 +30,11 @@ figure{
  }
  
 #story{
-  padding-top: 1rem;
+  padding-top: 2rem;
   float: center;
   width: 90%;
   background-color: slateblue;
+  padding-bottom: 3rem;
 }
 
 #techSkills{
@@ -41,6 +42,7 @@ figure{
   float: center;
     width: 90%;
     background-color: slategrey;
+    padding-bottom: 1rem;
 }
 ul #techSkills{
   -webkit-columns: 2;
@@ -51,13 +53,15 @@ ul #techSkills{
   padding-top: 1rem;
   float: center;
   width: 90%;
-  background-color: slateblue
+  background-color: slateblue;
+  padding-bottom: 1rem;
 }
 #Contact{
   padding-top: 1rem;
   float: center;
   width: 90%;
   background-color: slategrey;
+  padding-bottom: 1rem;
 }
 
 
