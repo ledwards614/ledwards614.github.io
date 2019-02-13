@@ -32,7 +32,7 @@ figure{
 #story{
   padding-top: 2rem;
   float: lcenter;
-  width: 77%;
+  width: 88%;
   background-color: royalblue
 }
 
@@ -45,7 +45,8 @@ figure{
 #ProfessionLinks{
   padding-top: 1rem;
   float: left;
-  width: 100%;
+  width: 50%;
+  height: 50%;
   background-color: slateblue
 }
 #Contact{
