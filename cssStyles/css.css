@@ -24,5 +24,14 @@ figure{
    float: left;
  }
  
+#story{
+  padding-top: 1rem;
+  float: center;
+}
+
+#techSkills{
+  padding-top: 1rem;
+  float: left;
+}
 
 
