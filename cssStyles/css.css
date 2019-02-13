@@ -14,9 +14,10 @@ figure{
     width: 325px;
 }
  #header{
-  border: 3px solid darkcyan;
+  border-top: 3px solid darkcyan;
   float: center;
   font-size: 48;
+  border-bottom: 3px solid darkcyan;
  } 
  #name{
    font-size: 48;
