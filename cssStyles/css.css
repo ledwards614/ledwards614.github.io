@@ -31,22 +31,22 @@ figure{
  
 #story{
   padding-top: 2rem;
-  float: lcenter;
+  float: center;
   width: 88%;
   background-color: royalblue
 }
 
 #techSkills{
   padding-top: 1rem;
-  float: left;
-    width: 80%;
+  float: center;
+    width: 50%;
+    height: 50%
     background-color: mediumorchid;
 }
 #ProfessionLinks{
   padding-top: 1rem;
   float: left;
-  width: 50%;
-  height: 50%;
+  width: 75%;
   background-color: slateblue
 }
 #Contact{
