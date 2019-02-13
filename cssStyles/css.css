@@ -42,6 +42,11 @@ figure{
     width: 90%;
     background-color: slategrey;
 }
+ul #techSkills{
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+}
 #ProfessionLinks{
   padding-top: 1rem;
   float: center;
