@@ -21,12 +21,11 @@ figure{
  } 
  #name{
    font-size: 48;
-   float: left;
  }
  
 #story{
   padding-top: 2rem;
-  float: left;
+  ;
 }
 
 #techSkills{
