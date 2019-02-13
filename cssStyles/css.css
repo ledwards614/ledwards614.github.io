@@ -25,11 +25,20 @@ figure{
  
 #story{
   padding-top: 2rem;
-  ;
+  float: left;
 }
 
 #techSkills{
   padding-top: 1rem;
+  float: left;
+}
+#professionalLinks{
+  padding-top: 1rem;
+  float: left;
+}
+#contact{
+  padding-top: 1rem;
+  float: left;
 }
 
 
