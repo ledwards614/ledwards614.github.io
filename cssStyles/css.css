@@ -22,6 +22,10 @@ figure{
    font-size: 48;
    float: left;
  }
+ #lowerBorder{
+
+  border-top: 3px solid darkcyan;
+ }
 
 
 
