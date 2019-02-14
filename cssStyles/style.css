@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+  h1{
+      color: cornsilk
+  }
+  header h2{
+    color: cornsilk;
+  }
+  main{
+     /* background-color: #bcbd8b;*/
+      background-color: #d8d5a6
+
+  }
+
+  
+  
+
+header{
+    display: flex;
+    justify-content: space-between; 
+  border-top: 3px solid darkcyan;
+  border-bottom: 3px solid darkcyan;
+  align-items: center;
+  background-image: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/18581999_10212762906767774_658203312955420867_n.jpg?_nc_cat=101&_nc_ht=scontent-iad3-1.xx&oh=ad8ff708194b85136d973e02006a8754&oe=5D29190F); 
+    background-size: cover;
+    padding: 1rem;
+  
+}
+
+
+figure{
+    height: 375px;
+    width: 300px;
+    /* Going over this later */
+    overflow: hidden;
+}
+
+img {
+  width: 100%;
+ 
+}
+.PictureBio{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#story{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+    float: center;
+    width: 90%;
+    opacity: 0.75;
+    border: 1px solid darkcyan;
+    padding-bottom: 3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 20px;
+    max-width: 800px;
+}
+#skills{
+    display: flex;
+    justify-content: center;
+  
+}
+#techSkills{
+  /*
+    padding-top: 1rem;
+    float: center;
+      width: 90%;
+      border:3px solid darkcyan;
+      padding-bottom: 1rem;
+      */
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 1rem;
+      border:5px solid darkgreen;
+       border-radius: 25px;
+       padding-top: 1rem;
+       padding-left: 2rem;
+
+       justify-content: center;
+       flex-direction: column;
+      
+  }
+  
+  .skillsList{
+     /*
+      border-radius: 25px;
+       border: 2px solid darkcyan;
+       padding: 10px;
+       width: 500px;
+       height: 500px;
+       */
+       text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+  }
+  .flexItem{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      border: 1px solid darkcyan;
+      padding: 2px;
+      width: 115px;
+      height: 50px;
+      
+  }
+
+  .nav__list a {
+    color: black;
+    text-decoration: none;
+    padding: 11px;
+    border: 2px solid black;
+    background-color: darkseagreen;
+    border-radius: 10px;
+   
+    
+}
+.nav a:hover {
+    background-color:  violet;
+    
+}
+.nav{
+    
+    padding: 1px;
+    
+}
+.nav__list{
+    display: flex;
+    
+    list-style-type: none;
+}
+
+#professionLinks{
+        margin-top: 2rem;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        border:5px solid darkcyan;
+         border-radius: 25px;
+         padding-top: 1rem;
+         padding-left: 2rem;
+         flex-direction: column;
+         
+        
+    }
+    #proLinks a{
+        text-decoration: none;
+        
+    }
+    #proLinks{
+        list-style-type: none;
+    }
+
+    #projectLinks{
+        margin-top: 2rem;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+        border:5px solid darkcyan;
+         border-radius: 25px;
+         padding-top: 1rem;
+         padding-left: 2rem;
+         flex-direction: column;
+         
+        
+    }
+    #projectLinks a{
+        text-decoration: none;
+        
+    }
+    #programmingProjects{
+        list-style-type: none;
+    }
+    #Contact{
+        margin-top: 2rem;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+         padding-top: 1rem;
+         padding-left: 2rem;
+         flex-direction: column;
+         color: cornsilk;
+         justify-content: center;
+        text-emphasis: 2rem;
+         
+    }
+    footer{
+        background-image: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/18581999_10212762906767774_658203312955420867_n.jpg?_nc_cat=101&_nc_ht=scontent-iad3-1.xx&oh=ad8ff708194b85136d973e02006a8754&oe=5D29190F); 
+        background-size: cover;
+        background-position-y: 60%;
+        padding: 3rem;
+    }
+
+/*
+.headerWords{
+ 
+  display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+}
+
+#Picture {
+  display: flex;
+  justify-content: space-between;
+}
+*/
+
+
+/* ORIGINAL CODE
+body{
+  background-color: azure;
+}
+
+
+
+
+    
+
+ 
+ #name{
+   font-size: 64;
+   border-bottom: 3px solid darkcyan;
+ }
+ 
+#story{
+  display:flex;
+  
+  padding-top: 2rem;
+  float: center;
+  width: 90%;
+  background-color: slateblue;
+  padding-bottom: 3rem;
+
+  background-color: slateblue;
+}
+
+#techSkills{
+  padding-top: 1rem;
+  float: center;
+    width: 90%;
+    background-color: slategrey;
+    padding-bottom: 1rem;
+    text-align: center;
+    display: flex;
+}
+ #techSkills ul{
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+}
+#ProfessionLinks{
+  padding-top: 1rem;
+  float: center;
+  width: 90%;
+  background-color: slateblue;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+#Contact{
+  padding-top: 1rem;
+  float: center;
+  width: 90%;
+  background-color: slategrey;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+*/

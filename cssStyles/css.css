@@ -17,6 +17,8 @@ html{
 figure{
     height: 375px;
     width: 300px;
+    /* Going over this later */
+    overflow: hidden;
 }
 
 img {
@@ -30,6 +32,10 @@ img {
 .headerWords{
   border-top: 3px solid darkcyan;
   border-bottom: 3px solid darkcyan;
+}
+#Picture {
+  display: flex;
+  justify-content: space-between;
 }
 /* ORIGINAL CODE
 body{
