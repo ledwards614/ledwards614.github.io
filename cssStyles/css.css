@@ -14,19 +14,23 @@ html{
   display: flex;
   justify-content: space-between;
 }
+figure{
+  float: left;
+    height: 400px;
+    width: 325px;
+}
 
+img {
+  width: 100%;
+ 
+}
 /* ORIGINAL CODE
 body{
   background-color: azure;
 }
 
 
-img {
-    display: block;
-    box-align: center;
-    width: 100%;
-   
-  }
+
 #navMenu{
   float: right;
   border: 1px solid black;
@@ -40,11 +44,7 @@ img {
   
  } 
     
-figure{
-  float: left;
-    height: 400px;
-    width: 325px;
-}
+
  
  #name{
    font-size: 64;
