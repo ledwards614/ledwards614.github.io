@@ -15,9 +15,8 @@ html{
   justify-content: space-between;
 }
 figure{
-  float: left;
-    height: 400px;
-    width: 325px;
+    height: 375px;
+    width: 300px;
 }
 
 img {
@@ -27,6 +26,10 @@ img {
 .container2{
   display: flex;
   flex-direction: column;
+}
+.headerWords{
+  border-top: 3px solid darkcyan;
+  border-bottom: 3px solid darkcyan;
 }
 /* ORIGINAL CODE
 body{
