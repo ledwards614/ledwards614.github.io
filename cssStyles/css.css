@@ -24,6 +24,10 @@ img {
   width: 100%;
  
 }
+.container2{
+  display: flex;
+  flex-direction: column;
+}
 /* ORIGINAL CODE
 body{
   background-color: azure;
