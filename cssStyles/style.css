@@ -205,15 +205,15 @@ a:hover {
      padding-top: 20px;
    padding-right: 1rem;
    padding-left: 1rem;
-   margin-right: 18rem;
-   margin-left: 18rem;
+   margin-right: 25rem;
+   margin-left: 25rem;
     display:flex;
     justify-content: space-around;
     border: 4rem solid black;
     font-size: 28px;
     margin-bottom: 20rem;
     margin-top: 30rem;
-    max-width: 1000px;
+   
 
          
         
@@ -243,12 +243,13 @@ a:hover {
     flex-direction: column;
   
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     border: 4rem solid black;
-    margin-right: 16rem;
-    margin-left: 16rem;
+    margin-right: 21rem;
+    margin-left: 21rem;
     margin-bottom: 30rem;
     margin-top: 40rem;
+    
 
     
 
