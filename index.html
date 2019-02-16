@@ -14,20 +14,14 @@
 <body>
 
     <div class="container">
-        <header>
+        <header id= "mainHeader">
             <div id="name">
                 <h1>LINDSEY EDWARDS</h1>
                 <h2>Full-Stack Developer</h2>
             </div>
-
-
-
-
-
-
-
         </header>
     </div>
+
     <main>
         <nav class="nav">
             <ul class="nav__list">
@@ -119,28 +113,60 @@
                                 class="fa fa-linkedin-square" style="font-size:48px;color:black"></i></a></li>
                 </ul>
             </section>
+        </div><!--closes containerLinks-->
 
             <section id="projects"></section>
             <section class="projectLinks">
                 
 
-                <h2>Projects</h2>
-                <!-- list with specific order -->
-                <ul id="programmingProjects">
+                <h2 id="title">Projects</h2>
+               
+                <div class="columnLayout">
+                        <article>
+                            <header>
+                                <h2>Virtual Pet</h2>
+                            </header>
+                            <section>
+                                    <figure id = "petPic">
+                                            <img src="images/virtual-pet.jpg" alt="Virtual Pet">
+                                        </figure>
+                                <p>Worked on a team project that utilized TDD, OOP, Java, Scrum, Agile, and Trello<br></p>
+                                <p>Check out the whole project on GitHub</p>
+                                <a href="https://github.com/ledwards614/virtual-pet" target="_blank"><i
+                                    class="fa fa-github" style="font-size:48px;color:black"></i></a>
+                            </section>
+                        </article>
+                        <article>
+                            <h2>High Street Hospital</h2>
+                            <section>
+                                   <figure id="hospitalPic">
+                                    <img src="images/hospital.jpg" alt="High Street Hospital">
+                                </figure>
+                                <p>Solo project that I developed through Java using TDD, OOP, and Java.<br></p>
+                                <p>Check out the whole project on GitHub</p>
+                                <a href="https://github.com/ledwards614/hospital" target="_blank"><i
+                                    class="fa fa-github" style="font-size:48px;color:black"></i></a></li>
+                              
+                            </section>
+                        </article>
+                        <article>
+                            <h2>Fortune Teller</h2>
+                            <section>
+                                    <figure id="fortunePic">
+                                    <img src="images/fortune-teller.jpg" alt="Fortune Teller">
+                                </figure>
+                                <p>An early project of mine that I used logic and problem-solving to develop a fotune teller console application through Java<br></p>
+                                <p>Check out the whole project on GitHub</p>
+                                <a href="https://github.com/ledwards614/fortune-teller" target="_blank"><i
+                                    class="fa fa-github" style="font-size:48px;color:black"></i></a></li>
+                            </section>
+                        </article>
+                    </div><!-- columnLayout closer -->
 
-                    <li>
-                        <p>Virtual Pet </p><a href="https://github.com/ledwards614/virtual-pet" target="_blank"><i
-                                class="fa fa-github" style="font-size:48px;color:black"></i></a>
-                    </li>
-                    <li>High Street Hospital <a href="https://github.com/ledwards614/hospital" target="_blank"><i
-                                class="fa fa-github" style="font-size:48px;color:black"></i></a></li>
-
-                </ul>
+                </article>  
             </section>
-        </div><!--closes containerLinks-->
-
-
         
+
            
         <section id="Contact info"></section>   
         <section class="contact">
