@@ -295,13 +295,28 @@ a:hover {
         padding-bottom: 6px;
         font-size: 38px;
     }
-    #hospitalPic{
-        /* padding-left: 10rem; */
+    #hospitalPic img{
+        border: 4px solid blueviolet;
+            border-radius: 20px;
     }
-    #petPic{
-        /* padding-left: 7rem; */
+    #petPic img{
+        border: 3px solid blueviolet;
+            border-radius: 20px;
+            width: 100%;
+      
 
     }
+    #petPic{
+
+   
+    height: 610px;
+    width: 740px;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+}
+    
     #fortuneTel p{
         display: flex;
         flex-direction: column;
@@ -309,27 +324,21 @@ a:hover {
     }
     #fortunePic{
         
-            height: 620px;
-            width: 770px;
+            height: 610px;
+            width: 740px;
         
             overflow: hidden;
             display: flex;
-            justify-content: center;
-            
-            
-            flex-wrap: nowrap;
-            
-        
+            justify-content: center;   
     }
     #fortunePic img{
         width: 100%;
+        flex-wrap: nowrap;
+            border: 4px solid blueviolet;
+            border-radius: 20px;
     }
 
-    .picture img {
-        width: 100%;
-        border: 4px solid blueviolet;
-        border-radius: 170px;
-      }
+    
        
 
    
