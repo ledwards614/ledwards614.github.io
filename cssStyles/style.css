@@ -249,7 +249,7 @@ a:hover {
   
     align-items: center;
     justify-content: center;
-    border: 3rem solid black;
+    border: 2rem solid black;
     margin-right: 21rem;
     margin-left: 21rem;
     margin-bottom: 30rem;
@@ -291,7 +291,7 @@ a:hover {
         
     }
     article p{
-        font-size: 22px;
+        font-size: 18px;
         color: cornsilk;
         text-align: center;
        
