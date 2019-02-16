@@ -100,7 +100,7 @@ a:hover {
   
     padding-top: 2rem;
      
-    border-left: 7rem solid blueviolet;
+    border-left: 6rem solid blueviolet;
    
     padding-bottom: 3rem;
     margin-right: 5rem;
@@ -209,7 +209,7 @@ a:hover {
    margin-left: 25rem;
     display:flex;
     justify-content: space-around;
-    border: 3rem solid black;
+    border: 2rem solid black;
     font-size: 28px;
     margin-bottom: 39rem;
     margin-top: 30rem;
@@ -246,7 +246,7 @@ a:hover {
   
     align-items: center;
     justify-content: center;
-    border: 4rem solid black;
+    border: 3rem solid black;
     margin-right: 21rem;
     margin-left: 21rem;
     margin-bottom: 30rem;
