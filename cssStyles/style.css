@@ -140,7 +140,10 @@ a:hover {
 }
 .techSkills{
       background-image: url(https://mastergolflivestream.com/images/clipart-cloud-silhouette-2.jpg);
-      background-size: cover;
+      /* background-size: cover; */
+      background-size: 800px 550px;
+      background-repeat: no-repeat;
+    
       padding: 9rem;
   }
   
@@ -314,8 +317,8 @@ a:hover {
     #petPic{
 
    
-    height: 610px;
-    width: 740px;
+ 
+    width: 649px;
 
     overflow: hidden;
     display: flex;
@@ -329,8 +332,8 @@ a:hover {
     }
     #fortunePic{
         
-            height: 610px;
-            width: 740px;
+            
+            width: 649px;
         
             overflow: hidden;
             display: flex;
