@@ -152,7 +152,7 @@ a:hover {
         padding-right: 1rem;
         padding-left: 1rem;
         margin-right: 25rem;
-         margin-left: 25rem;
+        margin-left: 25rem;
         display:flex;
         justify-content: space-around;
         border: 2rem solid black;
@@ -162,12 +162,13 @@ a:hover {
     }
     #proLinks a{
         text-decoration: none;
-        padding-right: 1rem;  
+        padding-right: 5px;  
     }
     #proLinks{
         list-style-type: none;
         display: flex;
         justify-content: space-between;   
+        padding-right: 3px;
     }
 
     .projectLinks{
