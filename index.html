@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+<section class = "header__section">
     <div class="container">
         <header id="mainHeader">
             <div id="name">
@@ -27,16 +27,18 @@
             <ul class="nav__list">
                 <li><a href="#bio">My Story</a></li>
                 <li><a href="#skills">Technical Skills</a></li>
-                <li><a href="#links">Professional Links</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="images/Resume_Lindsey_Edwards.pdf" target="_blank">Resume</a></li>
                 <li><a href="#Contact info">Contact Info</a></li>
             </ul>
         </nav>
-        <section class="picture">
+    </section>
+        <section class=main__body>
+        <!-- <section class="picture">
             <figure>
                 <img src="images/ProfilePic.jpg" alt="Profile Picture">
             </figure>
-        </section>
+        </section> -->
 
         <section id="bio"></section>
         <section class="story">
@@ -73,48 +75,35 @@
 
                 <h2>Tech Stack</h2>
                 <div class="skillsList">
-                    <div class="flexItem flexItem--1">Java</div>
+                   
+                   <div class="flexItem flexItem--1">Java</div>
                     <div class="flexItem flexItem--2">Spring</div>
                     <div class="flexItem flexItem--3">Hibernate</div>
-                    <div class="flexItem flexItem--4">JPA</div>
+                   <div class="flexItem flexItem--4">JPA</div> 
                     <div class="flexItem flexItem--5">JavaScript</div>
-                    <div class="flexItem flexItem--6">MVC</div>
-                    <div class="flexItem flexItem--7">HTML 5</div>
+                   <div class="flexItem flexItem--6">MVC</div>
+                    <div class="flexItem flexItem--7">HTML 5</div> 
                     <div class="flexItem flexItem--8">CSS3</div>
-                    <div class="flexItem flexItem--9">Flexbox</div>
-                    <div class="flexItem flexItem--10">Grid</div>
-                    <div class="flexItem flexItem--11">TDD</div>
+                    <div class="flexItem flexItem--9">Flexbox</div> 
+                    <div class="flexItem flexItem--10">Grid</div> 
+                    <div class="flexItem flexItem--11">TDD</div> 
                     <div class="flexItem flexItem--12">Agile</div>
-                    <div class="flexItem flexItem--13">OOP</div>
-                    <div class="flexItem flexItem--14">AJAX</div>
+                   <div class="flexItem flexItem--13">OOP</div>  
+                   <div class="flexItem flexItem--14">AJAX</div>
                     <div class="flexItem flexItem--15">JSON</div>
-                    <div class="flexItem flexItem--16">RestfulAPIs</div>
-                    <div class="flexItem flexItem--17">Responsive Design/Mobile</div>
-                    <div class="flexItem flexItem--1">SQL</div>
+                    <div class="flexItem flexItem--16">SQL</div>
+                    <div class="flexItem flexItem--17">RestfulAPIs</div>
+                    <div class="flexItem flexItem--1">Responsive Design/Mobile</div>
                     <div class="flexItem flexItem--1">Relational Databases</div>
                     <div class="flexItem flexItem--1">Source Control/Git</div>
+               
                 </div>
             </section>
         </div>
 
 
 
-        <div class="containerLinks">
-
-            <section id="links"></section>
-            <section class="professionLinks">
-                <h2>Professional Network Links</h2>
-
-                <ul id="proLinks">
-
-                    <li><a href="https://github.com/ledwards614" target="_blank"><i class="fa fa-github"
-                                style="font-size:48px;color:black"></i></a></li>
-                    <li><a href=https://www.linkedin.com/in/lindsey-edwards-648bba45 target="_blank"><i
-                                class="fa fa-linkedin-square" style="font-size:48px;color:black"></i></a></li>
-                </ul>
-            </section>
-        </div>
-        <!--closes containerLinks-->
+       
 
         <section id="projects"></section>
         <section class="projectLinks">
@@ -128,9 +117,9 @@
                         <h2>Virtual Pet</h2>
                     </header>
                     <section>
-                        <figure id="petPic">
+                        <!-- <figure id="petPic">
                             <img src="images/virtual-pet.jpg" alt="Virtual Pet">
-                        </figure>
+                        </figure> -->
                         <p>Team project that utilized TDD, OOP, Java, Scrum, Agile, Git, and Trello</p>
                         <p>Check out the whole project on GitHub</p>
                         <a href="https://github.com/ledwards614/virtual-pet" target="_blank"><i class="fa fa-github"
@@ -140,9 +129,9 @@
                 <article>
                     <h2>High Street Hospital</h2>
                     <section>
-                        <figure id="hospitalPic">
+                        <!-- <figure id="hospitalPic">
                             <img src="images/hospital.jpg" alt="High Street Hospital">
-                        </figure>
+                        </figure> -->
                         <p>Solo project that I developed using TDD, OOP, and Java.</p>
                         <p>Check out the whole project on GitHub</p>
                         <a href="https://github.com/ledwards614/hospital" target="_blank"><i class="fa fa-github"
@@ -153,9 +142,9 @@
                 <article>
                     <h2>Fortune Teller</h2>
                     <section id="fortuneTel">
-                        <figure id="fortunePic">
+                        <!-- <figure id="fortunePic">
                             <img src="images/fortune-teller.jpg" alt="Fortune Teller">
-                        </figure>
+                        </figure> -->
                         <p>An early project of mine that I used logic and problem-solving to develop a fotune teller
                             console application through Java.</p>
                         <p>Check out the whole project on GitHub</p>
@@ -169,18 +158,33 @@
             </div><!-- columnLayout closer -->
         </section>
 
-
+        <section class="picture">
+                <figure>
+                    <img src="images/ProfilePic.jpg" alt="Profile Picture">
+                </figure>
+            </section>
 
         <section id="Contact info"></section>
         <section class="contact">
 
             <h3>Contact Info</h3>
-            <a href="mailto:LEdwards614@gmail.com" target="_blank">LEdwards614@gmail.com</a>
+            
+           
+           
+            <ul id="proLinks">
+                    <li> <a href="mailto:LEdwards614@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:32px;color:lightcyan" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/ledwards614" target="_blank"><i class="fa fa-github"
+                                style="font-size:32px;color:lightcyan"></i></a></li>
+                    <li><a href=https://www.linkedin.com/in/lindsey-edwards-648bba45 target="_blank"><i
+                                class="fa fa-linkedin-square" style="font-size:32px;color:lightcyan"></i></a></li>
+                </ul>
 
         </section>
+    </section>
 
         <footer>
             &copy; 2019 Lindsey Edwards
+           <br><p> Photo by John O'Nolan on Unsplash</p>
         </footer>
     </main>
 </body>
