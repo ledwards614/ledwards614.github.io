@@ -19,55 +19,7 @@ function bindNavButtonToNavList() {
   });
 }
 
-
-
-
-//Hide Project Descriptions
-function hideProjectOne() {
-    var x = document.getElementById("hideProjectOne");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  
-  function hideProjectTwo() {
-    var x = document.getElementById("hideProjectTwo");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  
-  function hideProjectThree() {
-    var x = document.getElementById("hideProjectThree");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-  function hideProjectFour() {
-    var x = document.getElementById("hideProjectFour");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  //Image Carosel *************************************** 
   // Select the carousel you'll need to manipulate and the buttons you'll add events to
   const carousel = document.querySelector("[data-target='carousel']");
   const card = carousel.querySelector("[data-target='card']");
@@ -111,4 +63,44 @@ function hideProjectOne() {
   
 
 
-  
+  //Toggle Hiding Project Description ********************************
+//   function toggleProjectOne(element) {
+ const toggleHideProjectOne = document.querySelector('.hideButton1')
+
+  toggleHideProjectOne.addEventListener('click', function toggle() {
+    const projectOneContent = document.querySelector('.hideProjectOne')
+
+    projectOneContent.classList.toggle('hide')
+})
+// }
+
+
+const toggleHideProjectTwo = document.querySelector('.hideButton2')
+
+toggleHideProjectTwo.addEventListener('click', function toggle() {
+  const projectTwoContent = document.querySelector('.hideProjectTwo')
+
+  projectTwoContent.classList.toggle('hide')
+})
+  const toggleHideProjectThree = document.querySelector('.hideButton3')
+
+  toggleHideProjectThree.addEventListener('click', function toggle() {
+    const projectThreeContent = document.querySelector('.hideProjectThree')
+
+    projectThreeContent.classList.toggle('hide')
+})
+const toggleHideProjectFour = document.querySelector('.hideButton4')
+
+toggleHideProjectFour.addEventListener('click', function toggle() {
+  const projectFourContent = document.querySelector('.hideProjectFour')
+
+  projectFourContent.classList.toggle('hide')
+})
+
+
+
+
+//exports for Testing
+// module.exports = {
+//     toggleProjectOne: toggleProjectOne
+// }

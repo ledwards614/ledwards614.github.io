@@ -32,15 +32,15 @@
   .skillsList{
         display: grid;
         grid-template-columns: 15rem 15rem;
-        grid-column-gap: 1.2rem;
+        /* grid-column-gap: 1.2rem; */
         justify-content: center;
         text-align: center;
   }
   .flexItem{
      background: hsla(180, 100%, 94%, 0.8);
        padding: 5px;
-       border-radius: 10px;
-       margin: 2px;
+       /* border-radius: 10px; */
+       /* margin: 2px; */
        color:black; 
         font-size: 18px;
   }

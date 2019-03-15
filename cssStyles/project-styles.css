@@ -62,11 +62,43 @@
     opacity: 0;
 }
 
-.hideButton {
+.hideButton1 {
    width: 90px;
    border-radius: 6px;
 
   }
+  .hideButton1:hover {
+    background-color: lightcyan;
+ 
+   }
+  .hideButton2 {
+    width: 90px;
+    border-radius: 6px;
+    
+ 
+   }
+   .hideButton2:hover {
+    background-color: lightcyan;
+ 
+   }
+   .hideButton3 {
+    width: 90px;
+    border-radius: 6px;
+ 
+   }
+   .hideButton3:hover {
+    background-color: lightcyan;
+ 
+   }
+   .hideButton4 {
+    width: 90px;
+    border-radius: 6px;
+ 
+   }
+   .hideButton4:hover {
+    background-color: lightcyan;
+ 
+   }
   .projectFooter{
     background-color: #404040;
     color:lightcyan;
