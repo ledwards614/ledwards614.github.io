@@ -9,366 +9,306 @@
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   }
   
-
-
-  
-    h1{
-        color: black;
-       
-        /* color: cornsilk */
-    }
-    #mainHeader h2{
-        color:black;
-      /* color: cornsilk; */
-    }
-    
-  #mainHeader{
-       display: flex;
-      justify-content: space-between; 
-      border-top: 3px solid black;
-      border-bottom: 3px solid #404040;
-      align-items: center;
-      background-color: lightcyan;
-      /* background-image: linear-gradient(to right,lightcyan , teal); */
-       /* background-color: lightcyan; */
-       background-repeat: no-repeat;
-       background-size: cover;
-
-      padding: 1rem;
-    
-  }
-  .nav__list a {
-      color: cornsilk;
-      text-decoration: none;
-      padding-right: 40px;
-  }
-  a{
-      color:cornsilk;
-      list-style-type: none;
-  }
-  a:hover {
-      color: #adffff;
-  }
-  .nav{
-      background-color: #404040;
-      padding: 8px;   
-  }
-  .nav__list{
-      display: flex;
-      list-style-type: none;
-      justify-content: center;
-  }
-  .header__section{
-      background-attachment: fixed;
-  }
-  .main__body { 
-  
-    /* background-image:   linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("https://images.unsplash.com/photo-1491772135384-20292e4b5ea1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1455453754083-25b0af716329?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);;
-    /* Set a specific height */
-    /* background-image: url(https://images.unsplash.com/photo-1499088513455-78ed88b7a5b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); */
+body{
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1455453754083-25b0af716329?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
     width: 100%;
-   
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url(https://images.unsplash.com/photo-1483513208063-7ae9315481fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); */
-   
-  
-    /* Position and center the image to scale nicely on all screens */
-     /* position: absolute; */
-   background-position-y: 40%;
-    /* background-repeat: no-repeat; */
-      background-size: cover; 
-      overflow: hidden;
+   background-position-y: 34%;
+      background-size: cover;   
     background-attachment: fixed;
+   
+}
+
+.headerContents{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #404040;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+.hamburgerIcon {
+    position: relative;
+    padding-left: 90px;
+  
+  }
+  .hamburgerIcon:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 50px;
+    height: 5px;
+    border-top: 15px double lightcyan;
+    border-bottom: 5px solid lightcyan;
   }
 
+  .proLinks{
+      display:flex;
+      list-style-type: none;
+     padding-left: 10px;
+  }
+   .proLinks li{
+      padding-right: 6px;
+  }
 
-
-
-
-
-
+  main{
+      display: grid;
       
+  }
+
+  .container2{
+    display:grid;
+    justify-items: center;
+    margin-top: 15rem;
+    text-align: center;
+    margin-bottom: 2rem;
   
-  .picture figure{
-      height: 300px;
-      width: 215px;
-      /* Going over this later */
-      overflow: hidden; 
-      margin-top: 1rem;  
   }
-  
-  .picture img {
-      width: 100%;
-      border: 4px solid lightcyan;
-      /* border: 4px solid blueviolet; */
-      border-radius: 170px;
+  #name{
+      
+      /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+      font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    background:  hsla(180, 100%, 94%, 0.5);
+    border: 1.5rem solid hsla(180, 100%, 94%, 0.3);
+    padding:8px;
+    font-size: 40px;
+    padding-left: 14px;
+    padding-right: 14px;
+
   }
-  .picture{
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      flex-direction: row;
-      flex-wrap: nowrap;
+  h2 {
+      font-size: 43px;
   }
-  .story h2, p{
-      display: inline;
-  }
+
   .story{
-      padding-top: 2rem;  
-      background:  hsla(180, 100%, 94%, 0.8);
-      /* background:  hsla(202, 91%, 70%, 0.6); */
-      padding-bottom: 3rem;
-      margin-right: 5rem;
-      margin-left: 5rem;
-      padding-right: 3rem;
-      padding-left: 3rem;
-      line-height: 2.3;
-      margin-bottom: 38rem;
-      margin-top:   4rem;
-      border: 2rem solid hsla(180, 100%, 94%, 0.3);
-  
-    }
-    .story h2{
-        font-size: 40px;
-    }
-  
-    .container2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 2rem auto;
-      max-width: 810px;
-      margin-bottom: 20rem;
-  }
-  .techSkills h2{
-      color: black;
-      display: flex;
-      justify-content: center;
-      padding-bottom: 8px;
-      font-size: 42px;
-      background:  hsla(180, 100%, 94%, 0.8);
-  }
-  #skills{
-      display: flex;
-      justify-content: center;
-    
-  }
-  .techSkills{
+      display:grid;
+      justify-items: center;
      
-
-          /* background-image: url(https://mastergolflivestream.com/images/clipart-cloud-silhouette-2.jpg);  */
-          /* background:  hsla(180, 100%, 94%, 0.8); */
-       
-        /* background-size: 800px 550px; */
-        background-repeat: no-repeat;
-        padding: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        /* border: 2rem solid #404040; */
-        /* border-radius: 360px; */
-        background:  hsla(180, 100%, 94%, 0.8);
-        border: 2rem solid hsla(180, 100%, 94%, 0.3);
-       }  
-    
-    .skillsList{
-          
-          /* flex-direction: column;
-          flex-wrap: wrap;
-          align-content: center;
-          justify-content: center; */
-          
-          display: grid;
-          grid-template-columns: 15rem 15rem;
-          grid-column-gap: 1.2rem;
-          justify-content: center;
-          
-         
-          text-align: center;
-         
-          
-         
-    }
-    .flexItem{
-       background: hsla(180, 100%, 94%, 0.8);
-        /* background:  hsla(180, 100%, 94%, 0.3); */
-        /* background:  hsla(204, 5%, 22%, 0.27); */
-         /* background-color: darkgray;  */
-         padding: 5px;
-         /* box-shadow: 2px 4px #888888; */
-         border-radius: 50px;
-         margin: 2px;
-
-         /* border-radius: 5px; */
-          /* display: flex;
-          flex-direction: column;
-          justify-content: center;
-          justify-items: center;
-          align-items: center;
-          align-content: center; */
-          /* flex-wrap: wrap; */
-
-          
-    
-         
-
-
-          /* border: 1px solid teal; */
-          /* margin:2px; */
-         color:black; 
-          /* color: cornsilk; */
-          font-size: 18px;
-    }
-      .professionLinks h2{
-          color: black;
-          display: flex;
-          align-content: center;
-          padding-bottom: 1rem;
-  }  
-      .professionLinks{
-          /* background-color: lightcyan; */
-          background-image:url(http://gauravgarg.me/wp-content/uploads/2018/09/green-and-white-wallpaper-wallpaper-resolutions-mint-green-and-white-striped-wallpaper.jpg);
-        /* background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0185/1303/GrayBlueChev_shop_preview.png); */
-        background-size: cover;
-        background-position-y:45%;
-          padding-top: 20px;
-          padding-right: 1rem;
-          padding-left: 1rem;
-          margin-right: 25rem;
-          margin-left: 25rem;
-          display:flex;
-          justify-content: space-around;
-          border: 2rem solid hsla(180, 100%, 94%, 0.3);
-          /* border: 2rem solid #404040; */
-          font-size: 28px;
-          margin-bottom: 39rem;
-          margin-top: 30rem;     
-      }
-      #proLinks a{
-          text-decoration: none;
-          padding-right: 5px;  
-      }
-      #proLinks{
-          list-style-type: none;
-          display: flex;
-            justify-content: center;  
-          padding-right: 3px;
-      }
-  
-      .projectLinks{
-        background:  hsla(180, 100%, 94%, 0.8);
-        /* background-image:url(http://gauravgarg.me/wp-content/uploads/2018/09/green-and-white-wallpaper-wallpaper-resolutions-mint-green-and-white-striped-wallpaper.jpg); */
-           /* background-image: url(https://worshiphousemedia.s3.amazonaws.com/images/main/s/mo/vhp/mo/shimmeringworshipbackground2.jpg); */
-          /* background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg); */
-          /* background-image: url(https://ships.is/wp-content/uploads/2016/07/teal-wallpaper-9.jpg); */
-          /* background-image: url(https://i.imgur.com/E8vgvg5.jpg); */
-          background-size: cover;
-          background-position-y: 87%;
-          background-position-x: 70%;
-          display:flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          /* border: 3rem solid hsla(180, 100%, 94%, 0.3); */
-          border: 2rem solid hsla(180, 100%, 94%, 0.3);
-          /* border: 2rem solid #404040; */
-          margin-right: 25rem;
-          margin-left: 25rem;
-         margin-bottom: 5rem; 
-          
-          margin-top: 20rem;
-      }
-      #title{   
-          color: black;
-          padding-top: 1rem;
-          margin-bottom: 2rem;
-          font-size: 52px;
-      }
-      .columnLayout section{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-content:  center;
-          align-items: center;
-      }
-    
-      .columnLayout article{
-          display: flex;
-          align-content: center;
-          border-top: 7px solid black;
-          margin-left: 2rem;
-          margin-right: 2rem;
-          padding-bottom: 6px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          justify-items: center; 
-          align-items: center;
-          
-          
-      }
-      article p{
-          font-size: 18px;
-          color: black;
-          text-align: center;    
-      }
-      article h2{
-          padding-top: 6px;
-          padding-bottom: 6px;
-          font-size: 38px;
-          color: black;
-      }
-      #hospitalPic img{
-          border: 4px solid blueviolet;
-          border-radius: 20px;
-      }
-      #petPic img{
-          border: 3px solid blueviolet;
-          border-radius: 20px;
-          width: 100%;
-      }
-      #petPic{
-          width: 400px;
-          overflow: hidden;
-          display: flex;
-          justify-content: center; 
   }
-      
-      #fortuneTel p{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-      }
-      #fortunePic{
-          width: 400px;
-          overflow: hidden;
-          display: flex;
-          justify-content: center;   
-      }
-      #fortunePic img{
-          width: 100%;
-          flex-wrap: nowrap;
-          border: 4px solid blueviolet;
-          border-radius: 20px;
-      }
-      .contact{
-         
-          text-align: center;
-          display: flex;
-          flex-wrap: wrap;
-          padding-left: 2rem;
-          flex-direction: column;
-          color: cornsilk;
-          justify-content: center;
-          background-color:#404040;
-          color: cornsilk;
-          padding-bottom: 4px;
-          text-decoration: none;     
-      }
-      .contact a{
-          text-decoration: none;
-      }
-      footer{
-          background-color: lightcyan;
-        /* background-image: linear-gradient(to right,teal , lightcyan); */
-          padding: 0.5rem;
-      }
+
+/* .story{
+    border-radius: 25px;
+    background:  hsla(180, 100%, 94%, 0.8);
+    border: .5rem solid hsla(180, 100%, 94%, 0.3);
+    padding:4px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+} */
+
+
+
+
+
+
+  .homeFooter{
+    background-color: #404040;
+    color:lightcyan;
+    margin-top: 11.15rem;
+    
+    
+
+  }
+
+
+
+
+
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.bioContent {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#bioButton{
+    display: flex;
+    /* margin-right: 30rem;
+    margin-left: 30rem; */
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    padding: 4px;
+    border-radius: 5px;
+    background-color: hsla(180, 100%, 94%, 0.5);
+
+}
+button{
+  /* display: inline; */
+  width: 60px;
+}
+.modal__box{
+  display:flex;
+  justify-content: center;
+
+}
+
+.picture figure{
+  height: 250px;
+  width: 185px;
+  /* Going over this later */
+  overflow: hidden; 
+  margin-top: .2rem;  
+}
+
+.picture img {
+  width: 100%;
+  /* border: 4px solid lightcyan; */
+  /* border: 4px solid #404040; */
+  border-radius: 170px;
+
+}
+.picture{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+
+}
+/* .menu{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: 1px solid darkblue;
+}
+
+.hamburgerIcon{
+    height: 6px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: slategrey;
+    border-radius: 5px;
+    transform: translate(-50%, -50%) rotate(0deg);
+
+}
+.hamburgerIcon:first-child{
+    height: 6px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: slategrey;
+    border-radius: 5px;
+    transform-origin: 0% 0%;
+}
+
+.hamburgerIcon:nth-child(2){
+    content: "";
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+    margin: auto;
+    width: inherit;
+    transform-origin: 0% 100%;
+
+}
+  
+   */
+
+   /*
+ * Default Styles
+ */
+
+ /* html {
+  --light-green: hsla(120, 50%, 85%, 1);
+  --mid-green: hsla(120, 50%, 40%, 1);
+  --dark-green: hsla(120, 50%, 10%, 1);
+  
+  font: 20px/1 sans-serif;
+} */
+
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*
+ * App Styles
+ */
+
+
+
+.nav {
+  position: relative; /* Let's us position the list absolute */
+}
+
+.navButton {
+  background-color: var(--light-green);
+  border: none;
+  border-radius: 0.25rem;
+  color: var(--dark-green);
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.navList {
+  list-style: none;
+  padding: 1rem 1.5rem;
+  position: absolute; /* Let's us position the list relative to the `nav` container*/
+  right: 0; /* Positions the list flush with the right edge of the `nav` container */
+  background-color: lightcyan;
+  margin-top:28px;
+  margin-right: 14px;
+}
+
+.navLink {
+  margin-bottom: 0.5rem;
+;
+}
+  .navLink:last-child {
+    margin-bottom: 0;
+  }
+
+/*
+ * Action Classes (JS Stuff)
+ */
+.hide {
+  display: none;
+}
+a:hover{
+  color: 	 #ffd1dc;
+}
