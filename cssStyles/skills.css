@@ -47,7 +47,9 @@
   .skillsFooter{
   background-color: #404040;
     color:lightcyan;
-    margin-top: 6.2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .hideNav {

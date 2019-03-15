@@ -108,9 +108,9 @@ body{
   .homeFooter{
     background-color: #404040;
     color:lightcyan;
-    margin-top: 11.15rem;
-    
-    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
   }
 
