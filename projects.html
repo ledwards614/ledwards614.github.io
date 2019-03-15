@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lindsey Edwards</title>
+  <link rel="stylesheet" href="./cssStyles/style.css">
+  <link rel="stylesheet" href="./cssStyles/project-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+
+<body>
+
+
+  <header class="headerContents">
+
+    <nav class="nav">
+      <div class="hamburgerIcon">
+        <ul class="navList hideNav">
+          <li class="navLink"><a href="index.html">My Story</a></li>
+          <li class="navLink"><a href="techStack.html">Technical Skills</a></li>
+          <li class="navLink"><a href="projects.html">Projects</a></li>
+          <li lass="navLink"><a href="images/Resume_Lindsey_Edwards.pdf" target="_blank">Resume</a></li>
+
+        </ul>
+    </nav>
+
+    </div>
+    <!--closes hamburgerIcon-->
+
+    <div class="contact">
+      <ul class="proLinks">
+        <li> <a href="mailto:LEdwards614@gmail.com" target="_blank"><i class="fa fa-envelope"
+              style="font-size:28px;color:lightcyan" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/ledwards614" target="_blank"><i class="fa fa-github"
+              style="font-size:28px;color:lightcyan"></i></a></li>
+        <li><a href=https://www.linkedin.com/in/lindsey-edwards-648bba45 target="_blank"><i
+              class="fa fa-linkedin-square" style="font-size:28px;color:lightcyan"></i></a></li>
+      </ul>
+    </div>
+
+  </header><!-- closes headerContents-->
+
+
+  <main>
+
+
+    <section class="projectLinks">
+
+
+      <h2 id="title">Projects</h2>
+
+      <div class="columnLayout">
+
+
+        <article>
+          <h2>Vi-Curiously</h2>
+          <section id="viCur">
+            <button class="hideButton" onclick="hideProjectOne()">Project Description</button>
+
+            <div id="hideProjectOne">
+              <p>Java | OOP | TDD | Scrum | Agile | Git| HTML 5 | CSS</p>
+              <p>Developed a full-stack, multi-page website using pair programming. Users are given the opportunity to
+                either review life experiences or to live vicariously through other users by reading reviews. </p>
+              <p>Check out the whole project on GitHub</p>
+            </div>
+            <!-- <figure id="fortunePic">
+                                <img src="images/fortune-teller.jpg" alt="Fortune Teller">
+                            </figure> -->
+
+            <a href="https://github.com/ledwards614/fortune-teller" target="_blank"><i class="fa fa-github"
+                style="font-size:48px;color:black"></i></a></li>
+          </section>
+        </article>
+
+        <article>
+
+          <h2>Virtual Pet</h2>
+
+          <section>
+            <button class="hideButton" onclick="hideProjectTwo()">Project Description</button>
+
+            <div id="hideProjectTwo">
+              <p>Java | OOP | TDD | Scrum | Agile | Git</p>
+              <p>Team developed console application that allows users to interact with a virtual pet. </p>
+              <p>Check out the whole project on GitHub</p>
+            </div>
+
+
+            <!-- <figure id="petPic">
+                                <img src="images/virtual-pet.jpg" alt="Virtual Pet">
+                            </figure> -->
+
+            <a href="https://github.com/ledwards614/virtual-pet" target="_blank"><i class="fa fa-github"
+                style="font-size:48px;color:black"></i></a>
+          </section>
+        </article>
+        <article>
+          <h2>Blog Page</h2>
+          <section id="blog">
+            <button class="hideButton" onclick="hideProjectThree()">Project Description</button>
+
+            <div id="hideProjectThree">
+              <p>Java | OOP | TDD | Scrum | Agile | Git| HTML 5 | CSS</p>
+              <p>Developed a full-stack, multi-page website with one other developer over the weekend. Users are given
+                the opportunity to either review life experiences or to live vicariously through other users by reading
+                reviews. </p>
+              <p>Check out the whole project on GitHub</p>
+            </div>
+            <!-- <figure id="fortunePic">
+                                <img src="images/fortune-teller.jpg" alt="Fortune Teller">
+                            </figure> -->
+
+            <a href="https://github.com/ledwards614/mastery-blog-project" target="_blank"><i class="fa fa-github"
+                style="font-size:48px;color:black"></i></a></li>
+          </section>
+        </article>
+
+        <article>
+          <h2>High Street Hospital</h2>
+          <section>
+            <section>
+              <button class="hideButton" onclick="hideProjectFour()">Project Description</button>
+
+              <div id="hideProjectFour">
+                <p>Java | OOP | TDD | Scrum | Agile | Git </p>
+                <p> Independent project that was developed using SOLID principles. The application was set in place to
+                  organize patients and hospital staff. </p>
+                <p>Check out the whole project on GitHub</p>
+              </div>
+              <!-- <figure id="hospitalPic">
+                                <img src="images/hospital.jpg" alt="High Street Hospital">
+                            </figure> -->
+
+
+              <a href="https://github.com/ledwards614/hospital" target="_blank"><i class="fa fa-github"
+                  style="font-size:48px;color:black"></i></a></li>
+
+            </section>
+        </article>
+
+
+
+
+      </div><!-- columnLayout closer -->
+
+    </section>
+
+
+    <h2 class="project__header">Projects</h2>
+
+    <div class="wrapper">
+      <ul class="carousel" data-target="carousel">
+
+        <li class="card" data-target="card"><img src="images/vicur.jpg"></li>
+        <li class="card" data-target="card"><img src="images/VpPic.jpg"></li>
+        <li class="card" data-target="card"><img src="images/blogPage.jpg"></li>
+        <li class="card" data-target="card"><img src="images/hospitalPic 6.jpg"></li>
+
+
+
+      </ul>
+      <div class="button-wrapper">
+        <button class="buttonLeft" data-action="slideLeft">🡄</button>
+        <button class="buttonRight" data-action="slideRight">🡆</button>
+      </div>
+    </div>
+
+
+  </main>
+  <footer class="projectFooter">
+    &copy; 2019 Lindsey Edwards
+    <br>
+    <p></p>
+  </footer>
+
+  <script src="js/app-projects.js"></script>
+</body>
+
+</html>
