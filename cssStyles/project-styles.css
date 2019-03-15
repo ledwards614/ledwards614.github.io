@@ -70,9 +70,8 @@
   .projectFooter{
     background-color: #404040;
     color:lightcyan;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    margin-top: 11.15rem;
+    
     
 
   }
