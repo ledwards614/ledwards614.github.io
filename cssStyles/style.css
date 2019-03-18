@@ -159,15 +159,15 @@ body{
 }
 #bioButton{
     display: flex;
-    /* margin-right: 30rem;
-    margin-left: 30rem; */
     justify-content: center;
     text-align: center;
-    /* align-items: center; */
     padding: 4px;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: hsla(180, 100%, 94%, 0.5);
 
+}
+#bioButton:hover{
+  background-color: lightcyan;
 }
 button{
   /* display: inline; */

@@ -1,7 +1,4 @@
 
-//hamburger menu ----needs work
-
-
 
 //Bio Modal
 var modal = document.getElementById('bioModal');
@@ -31,26 +28,6 @@ window.onclick = function(event) {
 
 
 //Hambuger Nav***************
-// run();
-
-// function run() {
-//   bindNavButtonToNavList();
-// }
-
-// function toggleHide(element) {
-//   element.classList.toggle('hide');
-// }
-
-// function bindNavButtonToNavList() {
-//   const navButton = document.querySelector('.nav__button');
-  
-//   navButton.addEventListener('click', function() {
-//     const navList = document.querySelector('.navList');
-//     toggleHide(navList);
-//   });
-// }
-
-
 run();
 
 function run() {
