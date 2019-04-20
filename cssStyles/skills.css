@@ -29,12 +29,14 @@
       border: 2rem solid hsla(180, 100%, 94%, 0.3);
      }  
   
-  .skillsList{
+     @media (min-width: 607px) {
+     .skillsList{
         display: grid;
         grid-template-columns: 15rem 15rem;
         justify-content: center;
         text-align: center;
   }
+}
   .flexItem{
      background: hsla(180, 100%, 94%, 0.8);
        padding: 5px;

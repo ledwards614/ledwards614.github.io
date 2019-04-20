@@ -161,13 +161,15 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 4px;
-    border-radius: 50px;
+    padding: 9px;
+    border-radius:5%;
+    border: 4px solid hsla(180, 100%, 94%, 0.9);
     background-color: hsla(180, 100%, 94%, 0.5);
 
 }
 #bioButton:hover{
-  background-color: lightcyan;
+  background-color: hsla(180, 100%, 94%, 0.3);
+  color: lightcyan;
 }
 button{
   /* display: inline; */
