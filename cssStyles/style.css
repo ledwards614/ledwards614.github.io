@@ -88,17 +88,18 @@ body{
       font-family: 'Courier New', Courier, monospace;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 
-    border: .8rem solid hsla(180, 100%, 94%, 0.9);
+    border: .6rem solid hsla(180, 100%, 94%, 0.9);
     background-color: hsla(180, 100%, 94%, 0.5);
    
     padding:8px;
-    font-size: 40px;
+    font-size: 38px !important;
     padding-left: 14px;
     padding-right: 14px;
 
   }
+ 
   h2 {
-      font-size: 43px;
+      font-size: 32px;
   }
 
   .story{
