@@ -60,6 +60,7 @@ body{
       
   }
 
+  @media (min-width: 607px) {
   .container2{
     display:grid;
     justify-items: center;
@@ -68,13 +69,28 @@ body{
     margin-bottom: 2rem;
   
   }
+}
+
+@media (max-width: 606px) {
+.container2{
+  display:grid;
+  justify-items: center;
+  margin-top: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.8rem;
+
+}
+}
+
   #name{
       
       /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
       font-family: 'Courier New', Courier, monospace;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-    background:  hsla(180, 100%, 94%, 0.5);
-    border: 1.5rem solid hsla(180, 100%, 94%, 0.3);
+
+    border: .8rem solid hsla(180, 100%, 94%, 0.9);
+    background-color: hsla(180, 100%, 94%, 0.5);
+   
     padding:8px;
     font-size: 40px;
     padding-left: 14px;
@@ -91,24 +107,10 @@ body{
      
   }
 
-/* .story{
-    border-radius: 25px;
-    background:  hsla(180, 100%, 94%, 0.8);
-    border: .5rem solid hsla(180, 100%, 94%, 0.3);
-    padding:4px;
-    margin-left: 8rem;
-    margin-right: 8rem;
-} */
-
-
-
-
-
-
   .homeFooter{
     background-color: #404040;
     color:lightcyan;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 
@@ -121,17 +123,17 @@ body{
 
   /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
   left: 0;
   top: 0;
   width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
 }
 
 /* Modal Content */
@@ -205,60 +207,7 @@ button{
   
 
 }
-/* .menu{
-    height: 100px;
-    width: 100px;
-    position: relative;
-    border: 1px solid darkblue;
-}
 
-.hamburgerIcon{
-    height: 6px;
-    width: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: slategrey;
-    border-radius: 5px;
-    transform: translate(-50%, -50%) rotate(0deg);
-
-}
-.hamburgerIcon:first-child{
-    height: 6px;
-    width: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: slategrey;
-    border-radius: 5px;
-    transform-origin: 0% 0%;
-}
-
-.hamburgerIcon:nth-child(2){
-    content: "";
-    position: absolute;
-    height: inherit;
-    width: inherit;
-    border-radius: inherit;
-    margin: auto;
-    width: inherit;
-    transform-origin: 0% 100%;
-
-}
-  
-   */
-
-   /*
- * Default Styles
- */
-
- /* html {
-  --light-green: hsla(120, 50%, 85%, 1);
-  --mid-green: hsla(120, 50%, 40%, 1);
-  --dark-green: hsla(120, 50%, 10%, 1);
-  
-  font: 20px/1 sans-serif;
-} */
 
 
 a {

@@ -26,7 +26,7 @@
       margin-left: 1rem;
       margin-right: 1rem;
       background:  hsla(180, 100%, 94%, 0.8);
-      border: 2rem solid hsla(180, 100%, 94%, 0.3);
+      border: 2rem solid lightcyan;
      }  
   
      @media (min-width: 607px) {
@@ -46,7 +46,7 @@
   .skillsFooter{
   background-color: #404040;
     color:lightcyan;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
