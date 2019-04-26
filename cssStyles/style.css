@@ -92,14 +92,14 @@ body{
     background-color: hsla(180, 100%, 94%, 0.5);
    
     padding:8px;
-    font-size: 36px !important;
-    padding-left: 14px;
-    padding-right: 14px;
+    font-size: 32px !important;
+    padding-left: 11px;
+    padding-right: 11px;
 
   }
  
   h2 {
-      font-size: 32px;
+      font-size: 30px;
   }
 
   .story{
